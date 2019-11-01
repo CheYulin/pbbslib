@@ -1,4 +1,4 @@
-## Exec Usage
+## Exec Usage (Run Tests)
 
 ```
 ./mcss -r 5 -n 100000000

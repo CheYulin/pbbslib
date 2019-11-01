@@ -41,6 +41,7 @@ else ()
     set(CMAKE_EXPORT_COMPILE_COMMANDS ON)   # dump complilation cmmands to compile_commands.json
 endif ()
 
+## Examples
 add_executable(mcss examples/mcss.cpp)
 add_executable(wc examples/wc.cpp)
 add_executable(grep examples/grep.cpp)
@@ -49,11 +50,13 @@ add_executable(primes examples/primes.cpp)
 add_executable(longest_repeated_substring examples/longest_repeated_substring.cpp)
 add_executable(bw examples/bw.cpp)
 
+## Other Tests
 add_executable(test_alloc test_alloc.cpp)
 add_executable(test_scheduler test_scheduler.cpp)
 add_executable(test_sort test_sort.cpp)
 add_executable(time_tests time_tests.cpp)
 
+## Suffix Tree Tests
 add_executable(test_suffix_tree strings/test_suffix_tree.cpp)
 
 # Not Compiled Yet. Multiple Definitions.
